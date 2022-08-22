@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: "black" !important;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: "black" !important;
+  font-family: "arial", sans-serif
+}
+
+.customImg {
+  background-image: url("../src/assets/simer.jpg")
+}
+
+.reflections {
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #004);
+  text-transform: uppercase;
+  line-height: 4.3rem;
+  outline: none;
+  letter-spacing: .5rem;
+  animation: animate 5s linear infinite;
+  min-height: 5vh;
+  width: 200%;
+}
+
+@keyframes animate {
+
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #454545;
+    text-shadow: none;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+
+    color: #fff;
+    text-shadow: 0 0 10px #ff9760,
+      0 0 20px #ff9760,
+      0 0 40px #ff9760,
+      0 0 80px #ff9760,
+      0 0 160px #ff9760,
+      0 0 320px #ff9760;
+
+  }
 }
