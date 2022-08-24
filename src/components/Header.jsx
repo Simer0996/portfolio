@@ -4,11 +4,13 @@ import CarShow from "./CarShow"
 
 const Header = () => {
   return (
-    <Suspense fallback={null}>
-      <Canvas shadows>
-        <CarShow />
-      </Canvas>
-    </Suspense>
+    <>
+      <Suspense fallback={null}>
+        <Canvas shadows>
+          <CarShow />
+        </Canvas>
+      </Suspense>
+    </>
   )
 }
 
