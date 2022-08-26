@@ -16,12 +16,12 @@ const Contact = () => {
   return (
     <div className="text-white block w-[30%] m-auto">
       <form onSubmit={(e) => handleSubmit(e)}>
-        <label className="text-[#454545]">
+        <label className="text-[#454545] ">
           Name
           <input
             type="string"
             onChange={(e) => setName(e.target.value)}
-            className="w-[100%]"
+            className="w-[100%] text-[#ff9760]"
           />
         </label>
         <label className="text-[#454545]">
@@ -29,7 +29,7 @@ const Contact = () => {
           <input
             type="string"
             onChange={(e) => setPhone(e.target.value)}
-            className="w-[100%]"
+            className="w-[100%] text-[#ff9760]"
           />
         </label>
         <label className="text-[#454545]">
@@ -37,7 +37,7 @@ const Contact = () => {
           <input
             type="string"
             onChange={(e) => setEmail(e.target.value)}
-            className="w-[100%]"
+            className="w-[100%] text-[#ff9760]"
           />
         </label>
         <button className="block m-auto buttonStyling text-xl mt-[10px]">
