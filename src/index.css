@@ -11,20 +11,44 @@ body {
   margin: 0;
   padding: 0;
   background-color: black !important;
-  font-family: "roboto", sans-serif
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+input {
+  border-bottom: 1px solid #454545;
 }
 
 .customImg {
   background-image: url("../src/assets/simer.jpg")
 }
 
+.buttonStyling {
+  background-color: black;
+  color: #454545;
+  border: 1px solid #454545;
+  padding: 5px 10px;
+  border-radius: 2px
+}
+
+.buttonStyling:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #ff9760,
+    0 0 20px #ff9760,
+    0 0 40px #ff9760,
+    0 0 80px #ff9760,
+    0 0 160px #ff9760,
+    0 0 320px #ff9760;
+  border: 1px solid #ff9760;
+}
+
 .reflections {
-  -webkit-box-reflect: below 0px linear-gradient(transparent, #004);
+  -webkit-box-reflect: below 3px linear-gradient(transparent, #004);
   text-transform: uppercase;
   line-height: 4.3rem;
   outline: none;
   letter-spacing: .5rem;
-  animation: animate 5s linear infinite;
+  animation: animate 10s linear infinite;
   min-height: 5vh;
   width: 200%;
 }
@@ -43,6 +67,7 @@ body {
     color: #454545;
     text-shadow: none;
   }
+
 
   18.1%,
   20.1%,

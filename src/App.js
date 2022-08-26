@@ -2,6 +2,7 @@
 import Header from "./components/Header"
 import Landing from "./components/Landing"
 import Social from "./components/Social"
+import Contact from "./components/Contact"
 
 // import {
 //   FaSun,
@@ -17,6 +18,7 @@ function App() {
       <Landing />
       <Header />
       <Social />
+      <Contact />
     </div>
   )
 }
