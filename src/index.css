@@ -50,7 +50,7 @@ input {
   letter-spacing: .5rem;
   animation: animate 10s linear infinite;
   min-height: 5vh;
-  width: 200%;
+  width: 400%;
 }
 
 @keyframes animate {
