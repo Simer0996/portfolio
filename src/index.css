@@ -25,6 +25,10 @@ input:focus {
   border-bottom: 1px solid #ff9760;
 }
 
+label {
+  margin-bottom: 40px;
+}
+
 label:focus-within {
   color: #ff9760;
   text-shadow: 0 0 10px #ff9760,
