@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <div className="text-white block w-[30%] h-[400px] m-auto">
       <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col">
-        <label className="text-[#454545]  ">
+        <label className="text-[#454545] text-2xl  ">
           Name
           <input
             type="string"
@@ -24,7 +24,7 @@ const Contact = () => {
             className="w-[100%] text-[#ff9760]"
           />
         </label>
-        <label className="text-[#454545]">
+        <label className="text-[#454545] text-2xl">
           Phone
           <input
             type="string"
@@ -32,7 +32,7 @@ const Contact = () => {
             className="w-[100%] text-[#ff9760]"
           />
         </label>
-        <label className="text-[#454545] ">
+        <label className="text-[#454545] text-2xl ">
           Email
           <input
             type="string"
