@@ -1,7 +1,7 @@
 import React from "react"
 
 const Social = () => {
-  return <div>Social</div>
+  return <div></div>
 }
 
 export default Social
