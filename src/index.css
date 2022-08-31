@@ -17,12 +17,11 @@ body {
 
 input {
   outline: 0;
-  border-bottom: 1px solid #454545;
   background-color: black
 }
 
 input:focus {
-  border-bottom: 1px solid #ff9760;
+  border-bottom: 1px solid #fff;
 }
 
 label {
@@ -30,12 +29,8 @@ label {
 }
 
 label:focus-within {
-  color: #ff9760;
-  text-shadow: 0 0 10px #ff9760,
-    0 0 20px #ff9760,
-    0 0 40px #ff9760,
-    0 0 80px #ff9760,
-    0 0 160px #ff9760,
+  color: #fff;
+
 
 }
 
@@ -45,8 +40,8 @@ label:focus-within {
 
 .buttonStyling {
   background-color: black;
-  color: #454545;
-  border: 1px solid #454545;
+  color: grey;
+  border: 1px solid grey;
   padding: 5px 10px;
   border-radius: 2px
 }
@@ -60,12 +55,7 @@ label:focus-within {
     0 0 160px #ff9760,
     0 0 320px #ff9760;
   border: 1px solid #ff9760;
-  box-shadow: 0 0 10px #ff9760,
-    0 0 20px #ff9760,
-    0 0 40px #ff9760,
-    0 0 80px #ff9760,
-    0 0 160px #ff9760,
-    0 0 320px #ff9760;
+
 }
 
 .reflections {
@@ -90,7 +80,7 @@ label:focus-within {
   80%,
   90.1%,
   92% {
-    color: #454545;
+    color: grey;
     text-shadow: none;
   }
 
