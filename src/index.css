@@ -111,3 +111,9 @@ label:focus-within {
 
   }
 }
+
+@media (max-width: 768px) {
+  .customImg {
+    background-image: url("../src/assets/mobileSimer.jpg")
+  }
+}
