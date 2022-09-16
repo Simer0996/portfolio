@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault()
     axios.post("api/v1/contactMe", { name, phone, email })
     alert(
-      "Thanks for submitting your contact.I will try to get back at you ASAP!"
+      "Thanks for submitting your contact.I will try to get back to you ASAP!"
     )
   }
   return (
