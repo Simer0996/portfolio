@@ -38,6 +38,10 @@ label:focus-within {
   background-image: url("../src/assets/simer.jpg")
 }
 
+.customImgMobile {
+  background-image: url("../src/assets/mobileSimer.jpg")
+}
+
 .buttonStyling {
   background-color: black;
   color: grey;
