@@ -117,4 +117,15 @@ label:focus-within {
   .customImg {
     background-image: url("../src/assets/mobileSimer.jpg")
   }
+
+  .reflections {
+    -webkit-box-reflect: below -40px linear-gradient(transparent, #004);
+    text-transform: uppercase;
+    line-height: 4.3rem;
+    outline: none;
+    letter-spacing: .4rem;
+    animation: animate 10s linear infinite;
+    min-height: 5vh;
+    width: 500%;
+  }
 }
