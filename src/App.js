@@ -4,6 +4,7 @@ import Landing from "./components/Landing"
 
 import Contact from "./components/Contact"
 import About from "./components/About"
+import Projects from "./components/Projects"
 
 // import {
 //   FaSun,
@@ -18,8 +19,8 @@ function App() {
     <div className="App">
       <Landing />
       <Header />
-      
-      <About/>
+      {/* <Projects /> */}
+      <About />
       <Contact />
     </div>
   )
