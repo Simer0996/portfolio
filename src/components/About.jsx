@@ -23,12 +23,12 @@ const About = () => {
           borderColor: `${color}`,
           boxShadow:`${boxShadow}` 
         }}/>
-        <div style={{color:`${color}`}} className="w-[70%]"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        <div style={{color:`${color}`}} className="w-[70%]"><p>Full Stack developer with 2+ years of hands-on experience designing, developing, and implemeting applications and solutions using various range of technologies and programming languages. Seeking a leverage broad development experience and hands-on technical expertise in a challening role as Full-stack Developer. </p>
           <button style={{  backgroundColor: "black",
           color: `${color}`,
           border: `1px solid ${color}`,
           padding: "4px 8px",
-          borderRadius: "2px"}} className="block m-auto lg:mt-[15px] mt-[20px] buttonStyling text-xl ">Resume</button>
+          borderRadius: "2px"}} className="block m-auto lg:inline lg:mt-[15px] mt-[20px] buttonStyling text-xl ">Resume</button>
           </div>
         </div>
 
