@@ -84,8 +84,8 @@ const Projects = () => {
   return (
 <>
 <div className="slider w-[75%] m-auto" style={{
-  border:"2px solid white",
-  borderShadow:"0 0 10px #ff9760,0 0 20px #ff9760,0 0 40px #ff9760,0 0 80px #ff9760,0 0 160px #ff9760,0 0 320px #ff9760"
+  border:"2px solid gray",
+  borderShadow:"0 0 10px #ff9760,0 0 20px #ff9760,0 0 40px #ff9760,0 0 80px #ff9760,0 0 160px #ff9760,v 0 0 320px #ff9760"
 }}>
   <ul className="slide-track m-5">
         {projects.map(project => (
