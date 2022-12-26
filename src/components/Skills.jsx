@@ -1,6 +1,21 @@
 import React from "react";
+import {
+  // FaSun,
+
+  FaReact,
+  FaPython,
+  FaNode,
+  FaHtml5,
+  FaCss3,
+  FaBootstrap,
+} from "react-icons/fa"
 
 const Tabs = ({ color }) => {
+
+  const getStyle ={
+    color: "gray",
+    
+}
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
@@ -54,25 +69,18 @@ const Tabs = ({ color }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <p>
-                    Collaboratively administrate empowered markets via
-                    plug-and-play networks. Dynamically procrastinate B2C users
-                    after installed base benefits.
-                    <br />
-                    <br /> Dramatically visualize customer directed convergence
-                    without revolutionary ROI.
-                  </p>
+                <div className="flex justify-center">
+                <FaReact style={getStyle} size={90}/>
+                <FaHtml5 style={getStyle} size={90}/>
+                <FaCss3 style={getStyle} size={90}/>
+                <FaBootstrap style={getStyle} size={90}/>
                 </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <p>
-                    Completely synergize resource taxing relationships via
-                    premier niche markets. Professionally cultivate one-to-one
-                    customer service with robust ideas.
-                    <br />
-                    <br />
-                    Dynamically innovate resource-leveling customer service for
-                    state of the art customer service.
-                  </p>
+                </div>
+                <div className={openTab === 2 ? "block" : "hidden"} id="link2" >
+                  <div className="flex justify-center">
+                <FaNode style={getStyle} size={90}/>
+                <FaPython style={getStyle} size={90}/>
+                </div>
                 </div>
               </div>
             </div>
