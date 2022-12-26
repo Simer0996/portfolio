@@ -5,6 +5,7 @@ import HeaderNav from "./components/HeaderNav"
 import Contact from "./components/Contact"
 import About from "./components/About"
 import Projects from "./components/Projects"
+import Skills from "./components/Skills"
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <HeaderNav />
       <Home />
       {/* <Header /> */}
+      <Skills/>
+      <div style={{marginTop:"40px", marginBottom:"40px"}}>
       <Projects />
+      </div>
       <About />
       <Contact />
     </div>

@@ -88,6 +88,10 @@ label:focus-within {
 	width: calc(250px * 14);
 }
 
+.slider:hover, .slide-track:hover {
+    animation-play-state: paused;
+}
+
 .slider .slide {
 	height: 150px;
 	width: 250px;
@@ -98,6 +102,11 @@ label:focus-within {
 	height: 150px;
 	border-radius: 10px;
 }
+
+.slide img:hover {
+transform: scale(1.2),
+}
+
 
 @-webkit-keyframes scroll {
 	0% {
