@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+
 
 const Projects = () => {
 
@@ -83,12 +83,12 @@ const Projects = () => {
 <div className="slider m-auto">
   <div className="slide-track m-5">
         {projects.map(project => (
-          <Col size={12} sm={6} md={4}>
+       
           <div className="slide">
             <a href={project.link}><img src={project.image} alt={project.title}/></a>
             
           </div>
-        </Col>
+        
     ))}
 </div>
       </div>
