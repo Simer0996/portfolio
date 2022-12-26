@@ -26,8 +26,9 @@ const Contact = () => {
     )
   }
   return (
-    <div className= "block w-[30%] h-[400px] m-auto" >
-      <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col">
+    
+      <div className="flex justify-evenly">
+      <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col ">
         <label className="text-[grey] text-2xl" style={{color:`${FontColor}`}}>
           Name
           <input
@@ -65,7 +66,12 @@ const Contact = () => {
           Submit
         </button>
       </form>
+   
+    <div>
+      <p className="text-white w-[30%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit reprehenderit rerum mollitia, corrupti illo ullam sequi ipsam saepe quibusdam quaerat ea aliquid distinctio neque tenetur similique optio tempora accusamus illum!</p>
     </div>
+    </div>
+    
   )
 }
 

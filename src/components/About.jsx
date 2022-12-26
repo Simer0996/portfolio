@@ -23,7 +23,7 @@ const About = () => {
           borderColor: `${color}`,
           boxShadow:`${boxShadow}` 
         }}/>
-        <div style={{color:`${color}`}} className="w-[70%]"><p>Full Stack developer with 2+ years of hands-on experience designing, developing, and implemeting applications and solutions using various range of technologies and programming languages. Seeking a leverage broad development experience and hands-on technical expertise in a challening role as Full-stack Developer. </p>
+        <div style={{color:`${color}`}} className="w-[70%]"><p>Full Stack developer with 2+ years of experience designing, developing, and implementing applications and solutions using various range of technologies and programming languages. Seeking a leverage broad development experience and hands-on technical expertise in a challening role as Full-stack Developer. </p>
           <button style={{  backgroundColor: "black",
           color: `${color}`,
           border: `1px solid ${color}`,
