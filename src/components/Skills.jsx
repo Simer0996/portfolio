@@ -1,9 +1,92 @@
-import React from 'react'
+import React from "react";
 
-const Skills = () => {
+const Tabs = ({ color }) => {
+  const [openTab, setOpenTab] = React.useState(1);
   return (
-    <div>Skills</div>
-  )
-}
+    <>
+      <div className="flex flex-wrap w-[80%] m-auto block">
+        <div className="w-full">
+          <ul
+            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+            role="tablist"
+          >
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <a
+                className={
+                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  (openTab === 1
+                    ? "text-black bg-[#ff9760]" 
+                    : "text-white bg-black")
+                }
+                onClick={e => {
+                  e.preventDefault();
+                  setOpenTab(1);
+                }}
+                data-toggle="tab"
+                href="#link1"
+                role="tablist"
+              >
+                Front-End
+              </a>
+            </li>
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <a
+                className={
+                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  (openTab === 2
+                    ? "text-black bg-[#ff9760]" 
+                    : "text-white bg-black")
+                }
+                onClick={e => {
+                  e.preventDefault();
+                  setOpenTab(2);
+                }}
+                data-toggle="tab"
+                href="#link2"
+                role="tablist"
+              >
+                 Back-End
+              </a>
+            </li>
+            
+          </ul>
+          <div className="relative flex flex-col min-w-0 break-words bg-black text-white w-full mb-6 shadow-lg rounded">
+            <div className="px-4 py-5 flex-auto">
+              <div className="tab-content tab-space">
+                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                  <p>
+                    Collaboratively administrate empowered markets via
+                    plug-and-play networks. Dynamically procrastinate B2C users
+                    after installed base benefits.
+                    <br />
+                    <br /> Dramatically visualize customer directed convergence
+                    without revolutionary ROI.
+                  </p>
+                </div>
+                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                  <p>
+                    Completely synergize resource taxing relationships via
+                    premier niche markets. Professionally cultivate one-to-one
+                    customer service with robust ideas.
+                    <br />
+                    <br />
+                    Dynamically innovate resource-leveling customer service for
+                    state of the art customer service.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Skills
+export default function Skills() {
+  return (
+    <>
+      return <Tabs color="pink" />;
+    </>
+  );
+}
