@@ -13,15 +13,14 @@ function App() {
     <div className="App">
       <HeaderNav />
       <Home />
-      {/* <Header /> */}
-      <div style={{ marginTop: "100px", marginBottom: "80px" }}>
-        <Skills />
-      </div>
       <div style={{ marginTop: "100px", marginBottom: "180px" }}>
         <Projects />
       </div>
       <div style={{ marginTop: "100px", marginBottom: "180px" }}>
         <About />
+        <div style={{ marginTop: "100px", marginBottom: "80px" }}>
+          <Skills />
+        </div>
         <Contact />
       </div>
       <Footer />
