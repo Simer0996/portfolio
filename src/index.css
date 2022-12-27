@@ -50,6 +50,15 @@ label:focus-within {
   border-radius: 2px
 }
 
+.buttonStyling1 {
+  background-color: black;
+  color: grey;
+  border: 1px solid grey;
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 1px
+}
+
 .buttonStyling:hover {
   color: #fff;
   text-shadow: 0 0 10px #ff9760,

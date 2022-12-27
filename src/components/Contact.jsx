@@ -26,7 +26,7 @@ const Contact = () => {
     )
   }
   return (
-    <div className="w-[65%] m-auto block">
+    <div className="w-[65%] m-auto block" id="contact">
       <div style={{display:"flex", justifyContent:"space-between"}} >
       <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[60%]">
         <label className="text-[grey] text-2xl" style={{color:`${FontColor}`}}>
