@@ -97,31 +97,31 @@ const Tabs = ({ color }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                <div className="flex justify-center gapStyling">
-                <FaReact style={getStyle} size={90}/>
-                <FaHtml5 style={getStyle} size={90}/>
-                <FaCss3 style={getStyle} size={90}/>
-                <FaBootstrap style={getStyle} size={90}/>
-                <FaJs style={getStyle} size={90}/>
+                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end">
+                <FaReact style={getStyle} />
+                <FaHtml5 style={getStyle} />
+                <FaCss3 style={getStyle} />
+                <FaBootstrap style={getStyle} />
+                <FaJs style={getStyle}/>
                 </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2" >
-                  <div className="flex justify-center gapStyling">
-                <FaNode style={getStyle} size={90}/>
-                <FaPython style={getStyle} size={90}/>
-                <FaJava style={getStyle} size={90}/>
+                  <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end">
+                <FaNode style={getStyle} />
+                <FaPython style={getStyle} />
+                <FaJava style={getStyle} />
                 
                 </div>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link1">
-                <div className="flex justify-center gapStyling">
-              <FaTerminal style={getStyle} size={90}/>
-              <FaGithub style={getStyle} size={90}/>
-              <FaWordpress style={getStyle} size={90}/>
-              <FaLinux style={getStyle} size={90}/>
-              <FaTrello style={getStyle} size={90}/>
-              <FaRaspberryPi style={getStyle} size={90}/>
-              <FaAws style={getStyle} size={90}/>
+                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end=">
+              <FaTerminal style={getStyle} />
+              <FaGithub style={getStyle} />
+              <FaWordpress style={getStyle} />
+              <FaLinux style={getStyle} />
+              <FaTrello style={getStyle} />
+              <FaRaspberryPi style={getStyle} />
+              <FaAws style={getStyle} />
                 </div>
                 </div>
               </div>
