@@ -17,6 +17,7 @@ FaJava,
   FaRaspberryPi,
   FaJs,
   FaAws,
+  FaDatabase,
 } from "react-icons/fa"
 
 const Tabs = ({ color }) => {
@@ -97,7 +98,7 @@ const Tabs = ({ color }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end">
+                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-items-end">
                 <FaReact style={getStyle} />
                 <FaHtml5 style={getStyle} />
                 <FaCss3 style={getStyle} />
@@ -106,15 +107,16 @@ const Tabs = ({ color }) => {
                 </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2" >
-                  <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end">
+                  <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-items-end">
                 <FaNode style={getStyle} />
                 <FaPython style={getStyle} />
                 <FaJava style={getStyle} />
+                <FaDatabase style={getStyle}/>
                 
                 </div>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link1">
-                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-end=">
+                <div className="grid grid-cols-4 grid-rows-2 gapStyling text-4xl lg:text-8xl justify-items-end">
               <FaTerminal style={getStyle} />
               <FaGithub style={getStyle} />
               <FaWordpress style={getStyle} />
