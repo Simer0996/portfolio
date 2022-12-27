@@ -40,7 +40,7 @@ const Tabs = ({ color }) => {
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-black bg-[white] boxAnimation" 
-                    : "text-white bg-black")
+                    : "text-white ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -59,7 +59,7 @@ const Tabs = ({ color }) => {
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-black bg-[white] boxAnimation" 
-                    : "text-white bg-black")
+                    : "text-white ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -78,7 +78,7 @@ const Tabs = ({ color }) => {
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-black bg-[white] boxAnimation" 
-                    : "text-white bg-black")
+                    : "text-white")
                 }
                 onClick={e => {
                   e.preventDefault();
