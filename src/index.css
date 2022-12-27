@@ -59,6 +59,17 @@ label:focus-within {
   border-radius: 1px
 }
 
+.buttonStyling1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #ff9760,
+    0 0 20px #ff9760,
+    0 0 40px #ff9760,
+    0 0 80px #ff9760,
+    0 0 160px #ff9760,
+    0 0 320px #ff9760;
+  border: 1px solid #ff9760;
+}
+
 .buttonStyling:hover {
   color: #fff;
   text-shadow: 0 0 10px #ff9760,
