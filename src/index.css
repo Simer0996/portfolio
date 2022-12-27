@@ -108,6 +108,22 @@ label:focus-within {
   transform: scale(1.2),
 }
 
+.boxAnimation {
+  box-shadow: 0 0 10px #ff9760,
+    0 0 20px #ff9760,
+    0 0 40px #ff9760,
+    0 0 80px #ff9760,
+    0 0 160px #ff9760,
+    0 0 320px #ff9760;
+  ;
+  flex-wrap: wrap;
+}
+
+.gapStyling {
+  gap: 70px;
+  margin: 70px
+}
+
 
 @-webkit-keyframes scroll {
   0% {
