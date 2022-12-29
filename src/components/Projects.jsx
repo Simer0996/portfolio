@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 
 const Projects = () => {
@@ -85,7 +85,7 @@ const Projects = () => {
         {projects.map(project => (
        
           <div className="slide">
-            <a href={project.link}><img src={project.image} alt={project.title}/></a>
+            <a href={project.link}><img src={project.image} alt={project.title} className="imgBoxShadow" /></a>
             
           </div>
         

@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <HeaderNav />
       <Home />
-      <div style={{ marginTop: "100px", marginBottom: "180px" }}>
+      <div style={{ marginTop: "-80px", marginBottom: "180px" }}>
         <Projects />
       </div>
-      <div style={{ marginTop: "100px", marginBottom: "180px" }}>
+      <div style={{ marginTop: "-200px", marginBottom: "180px" }}>
         <About />
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
           <Skills />

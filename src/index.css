@@ -94,7 +94,7 @@ label:focus-within {
 }
 
 .slider {
-  height: 200px;
+  height: 500px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -105,7 +105,11 @@ label:focus-within {
   -webkit-animation: scroll 30s linear infinite;
   animation: scroll 30s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 12);
+}
+
+.slide-track {
+  margin-top: 150px
 }
 
 .slider:hover,
@@ -114,19 +118,30 @@ label:focus-within {
 }
 
 .slider .slide {
-  height: 150px;
+  /* height: 150px; */
   width: 250px;
 }
 
 .slider .slide img {
-  width: 80%;
-  height: 150px;
-  /* border-radius: 10px; */
+  width: 60%;
+  /* height: 150px; */
+  border-radius: 50%;
+
 }
 
-.slide img:hover {
-  transform: scale(1.2),
+.slider .slide img {
+  width: 60%;
+
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+
 }
+
+.slider .slide img:hover {
+  transform: scale(1.2);
+}
+
+
 
 .boxAnimation {
   box-shadow: 0 0 10px #ff9760,
@@ -144,6 +159,20 @@ label:focus-within {
   margin: 40px
 }
 
+.imgBoxShadow {
+  border: 5px solid gray;
+}
+
+.imgBoxShadow:hover {
+  border: 5px solid white;
+  box-shadow: 0 0 10px #ff9760,
+    0 0 20px #ff9760,
+    0 0 40px #ff9760,
+    0 0 80px #ff9760,
+    0 0 160px #ff9760,
+    0 0 320px #ff9760;
+  ;
+}
 
 @-webkit-keyframes scroll {
   0% {
