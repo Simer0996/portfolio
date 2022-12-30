@@ -94,7 +94,7 @@ label:focus-within {
 }
 
 .slider {
-  height: 500px;
+  height: 700px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -109,7 +109,7 @@ label:focus-within {
 }
 
 .slide-track {
-  margin-top: 200px
+  margin-top: 300px
 }
 
 .slider:hover,
