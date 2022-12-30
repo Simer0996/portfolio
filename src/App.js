@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <HeaderNav />
       <Home />
-      <div style={{ marginTop: "-10px", marginBottom: "180px" }}>
+      <div style={{ marginTop: "-100px", marginBottom: "180px" }}>
         <Projects />
       </div>
       <div style={{ marginTop: "-200px", marginBottom: "180px" }}>
