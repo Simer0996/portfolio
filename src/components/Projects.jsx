@@ -14,7 +14,7 @@ const Projects = () => {
       title: "Pomodee",
       description: "Pomodee",
       image: "img/pomodee.svg",
-      link: "https://www.pomodee.com",
+      link: "https://pomodee.com",
     },
     {
       title: "title3",
