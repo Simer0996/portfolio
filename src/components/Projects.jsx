@@ -2,78 +2,80 @@ import React from "react";
 
 const Projects = () => {
 
-
   const projects = [
     {
-      title: "HandyChef",
-      description: "handyChef",
-      image: "img/projects/handychef.svg",
-      link: "https://www.handychef.ca/",
+      title: "Product View",
+      description: "proof of concept",
+      image: "img/pomodee.jpg",
+      link: "https://ecommerce-olive.vercel.app/",
     },
     {
-      title: "Pomodee",
-      description: "Pomodee",
-      image: "img/projects/pomodee.svg",
-      link: "https://pomodee.com",
+      title: "Rest Countries API",
+      description: "proof of concept",
+      image: "img/handychef.jpg",
+
+      link: "https://my-tailwind-project.vercel.app/",
+
     },
     {
-      title: "title3",
+      title: "Splink",
       description: "Mobile App",
-      image: "img/projects/handychef.svg",
+      image: 'img/pomodee.jpg',
       link: "https://www.splink.ca/",
     },
     {
-      title: "title4 ",
+      title: "Dustypaws ",
       description: "Product",
-      image: "img/projects/handychef.svg",
+      image: "img/handychef.jpg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "title5",
+      title: "People and Cars",
       description: "proof of concept",
-      image: "img/projects/handychef.svg",
+      image: "img/pomodee.jpg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "title6",
+      title: "AI web app",
       description: "proof of concept",
-      image: "img/projects/handychef.svg",
+      image: "img/handychef.jpg",
       link: "https://dustypaws.co/",
+    },{
+      title: "Product View",
+      description: "proof of concept",
+      image: "img/pomodee.jpg",
+      link: "https://ecommerce-olive.vercel.app/",
     },
     {
-      title: "title7",
-      description: "handyChef",
-      image: "img/projects/handychef.svg",
-      link: "https://www.handychef.ca/",
+      title: "Rest Countries API",
+      description: "proof of concept",
+      image: "img/handychef.jpg",
+
+      link: "https://my-tailwind-project.vercel.app/",
+
     },
     {
-      title: "title8",
-      description: "Pomodee",
-      image: "img/projects/handychef.svg",
-      link: "https://pomodee.com",
-    },
-    {
-      title: "title9",
+      title: "Splink",
       description: "Mobile App",
-      image: "img/projects/handychef.svg",
+      image: 'img/pomodee.jpg',
       link: "https://www.splink.ca/",
     },
     {
-      title: "title10 ",
+      title: "Dustypaws ",
       description: "Product",
-      image: "img/projects/handychef.svg",
+      image: "img/handychef.jpg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "title11",
+      title: "People and Cars",
       description: "proof of concept",
-      image: "img/projects/handychef.svg",
+      image: "img/pomodee.jpg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "title12",
+      title: "AI web app",
       description: "proof of concept",
-      image: "img/projects/handychef.svg",
+      image: "img/handychef.jpg",
       link: "https://dustypaws.co/",
     }
   ]

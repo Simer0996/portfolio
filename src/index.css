@@ -177,6 +177,15 @@ label:focus-within {
   ;
 }
 
+.heading-styling {
+  text-shadow: 0 0 10px #ff9760,
+    0 0 20px #ff9760,
+    0 0 40px #ff9760,
+    0 0 80px #ff9760,
+    0 0 160px #ff9760,
+    0 0 320px #ff9760;
+}
+
 @-webkit-keyframes scroll {
   0% {
     transform: translateX(0);

@@ -29,8 +29,10 @@ const Contact = () => {
   return (
     <div className="w-[65%] m-auto block" id="contact">
       <div style={{display:"flex", justifyContent:"space-between"}} >
-      <form ref={form} onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[80%] lg:w-[60%] lg:none">
-        <label className="text-[grey] text-2xl" style={{color:`${FontColor}`}}>
+      
+      <form ref={form} onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[100%] lg:w-[60%] lg:none">
+      <p className="text-2xl lg:text-5xl text-white heading-styling">Get In Touch</p>
+        <label className="text-[grey] text-2xl mt-[30px]" style={{color:`${FontColor}`}}>
           Email
           <input
             type="string"
