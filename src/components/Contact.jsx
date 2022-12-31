@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react"
-import axios from "axios"
+import React, { useState, useEffect,useRef } from "react"
+
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  const [name, setName] = useState("")
-  const [phone, setPhone] = useState("")
-  const [email, setEmail] = useState("")
+  
+  const form = useRef();
+
+
   const [FontColor, setFontColor] = useState("")
 
 
@@ -20,20 +22,24 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post("api/v1/contactMe", { name, phone, email })
-    alert(
-      "Thanks for submitting your contact.I will try to get back to you ASAP!"
-    )
+    emailjs.sendForm('service_15jye7t', 'template_zurs2gs', form.current, 'E68Hjl1hVkx1g0Oc-')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+
   }
   return (
     <div className="w-[65%] m-auto block" id="contact">
       <div style={{display:"flex", justifyContent:"space-between"}} >
-      <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[80%] lg:w-[60%] lg:none">
+      <form ref={form} onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[80%] lg:w-[60%] lg:none">
         <label className="text-[grey] text-2xl" style={{color:`${FontColor}`}}>
-          Name
+          Email
           <input
             type="string"
-            onChange={(e) => setName(e.target.value)}
+            // onChange={(e) => setName(e.target.value)}
+            name="from_Email"
             className="w-[100%]"
             style={{color:`${FontColor}`,borderBottom: `2px solid ${FontColor}`}}
           />
@@ -42,16 +48,18 @@ const Contact = () => {
           Phone
           <input
             type="string"
-            onChange={(e) => setPhone(e.target.value)}
+            // onChange={(e) => setPhone(e.target.value)}
+            name="from_phone"
             className="w-[100%]"
             style={{color:`${FontColor}`,borderBottom: `2px solid ${FontColor}`}}
           />
         </label>
         <label className="text-[grey] text-2xl" style={{color:`${FontColor}`}}>
-          Email
+          Message
           <input
             type="string"
-            onChange={(e) => setEmail(e.target.value)}
+            // onChange={(e) => setEmail(e.target.value)}
+            name="from_message"
             className="w-[100%]"
             style={{color:`${FontColor}`, borderBottom: `2px solid ${FontColor}`}}
           />

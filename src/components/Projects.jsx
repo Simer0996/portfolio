@@ -5,73 +5,73 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Product View",
+      title: "pomodee",
       description: "proof of concept",
       image: "img/portfolio/ecom.svg",
       link: "https://ecommerce-olive.vercel.app/",
     },
     {
-      title: "Rest Countries API",
+      title: "HandyChef",
       description: "proof of concept",
       image: "img/portfolio/countries.svg",
       link: "https://my-tailwind-project.vercel.app/",
     },
     {
-      title: "Splink",
+      title: "title3",
       description: "Mobile App",
       image: 'img/portfolio/splink.svg',
       link: "https://www.splink.ca/",
     },
     {
-      title: "Dustypaws ",
+      title: "title4 ",
       description: "Product",
       image: "img/portfolio/dustypaws.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "People and Cars",
+      title: "title5",
       description: "proof of concept",
       image: "img/portfolio/cars.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "AI web app",
+      title: "title6",
       description: "proof of concept",
       image: "img/portfolio/AIWeb.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "Product View",
+      title: "title7",
       description: "proof of concept",
       image: "img/portfolio/ecom.svg",
       link: "https://ecommerce-olive.vercel.app/",
     },
     {
-      title: "Rest Countries API",
+      title: "title8",
       description: "proof of concept",
       image: "img/portfolio/countries.svg",
       link: "https://my-tailwind-project.vercel.app/",
     },
     {
-      title: "Splink",
+      title: "title9",
       description: "Mobile App",
       image: 'img/portfolio/splink.svg',
       link: "https://www.splink.ca/",
     },
     {
-      title: "Dustypaws ",
+      title: "title10 ",
       description: "Product",
       image: "img/portfolio/dustypaws.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "People and Cars",
+      title: "title11",
       description: "proof of concept",
       image: "img/portfolio/cars.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "AI web app",
+      title: "title12",
       description: "proof of concept",
       image: "img/portfolio/AIWeb.svg",
       link: "https://dustypaws.co/",
@@ -85,8 +85,7 @@ const Projects = () => {
         {projects.map(project => (
        
           <div className="slide">
-            <a href={project.link}><img src={project.image} alt={project.title} className="imgBoxShadow" /></a>
-            
+            <a href="/"><div className="imgBoxShadow text-white" >{project.title}</div></a> 
           </div>
         
     ))}
