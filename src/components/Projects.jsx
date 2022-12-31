@@ -1,20 +1,20 @@
 import React from "react";
 
-
 const Projects = () => {
+
 
   const projects = [
     {
-      title: "pomodee",
-      description: "proof of concept",
-      image: "img/portfolio/ecom.svg",
-      link: "https://ecommerce-olive.vercel.app/",
+      title: "HandyChef",
+      description: "handyChef",
+      image: "img/handyChef.svg",
+      link: "https://www.handychef.ca/",
     },
     {
-      title: "HandyChef",
-      description: "proof of concept",
-      image: "img/portfolio/countries.svg",
-      link: "https://my-tailwind-project.vercel.app/",
+      title: "Pomodee",
+      description: "Pomodee",
+      image: "img/pomodee.svg",
+      link: "https://www.pomodee.com",
     },
     {
       title: "title3",
@@ -41,16 +41,16 @@ const Projects = () => {
       link: "https://dustypaws.co/",
     },
     {
-      title: "title7",
-      description: "proof of concept",
-      image: "img/portfolio/ecom.svg",
-      link: "https://ecommerce-olive.vercel.app/",
+      title: "HandyChef",
+      description: "handyChef",
+      image: "img/handychef.svg",
+      link: "https://www.handychef.ca/",
     },
     {
-      title: "title8",
-      description: "proof of concept",
-      image: "img/portfolio/countries.svg",
-      link: "https://my-tailwind-project.vercel.app/",
+      title: "Pomodee",
+      description: "Pomodee",
+      image: "img/pomodee.svg",
+      link: "https://pomodee.com",
     },
     {
       title: "title9",
@@ -83,9 +83,9 @@ const Projects = () => {
 <div className="slider m-auto">
   <div className="slide-track m-5">
         {projects.map(project => (
-       
-          <div className="slide">
-            <a href="/"><div className="imgBoxShadow text-white" >{project.title}</div></a> 
+         <div className="slide">
+            <a href={project.link}><img src={project.image} alt={project.title} className="imgBoxShadow" />
+            </a>
           </div>
         
     ))}
