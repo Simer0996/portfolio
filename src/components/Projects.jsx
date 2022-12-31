@@ -7,73 +7,73 @@ const Projects = () => {
     {
       title: "HandyChef",
       description: "handyChef",
-      image: "img/handyChef.svg",
+      image: "img/projects/handychef.svg",
       link: "https://www.handychef.ca/",
     },
     {
       title: "Pomodee",
       description: "Pomodee",
-      image: "img/pomodee.svg",
+      image: "img/projects/pomodee.svg",
       link: "https://pomodee.com",
     },
     {
       title: "title3",
       description: "Mobile App",
-      image: 'img/portfolio/splink.svg',
+      image: "img/projects/handychef.svg",
       link: "https://www.splink.ca/",
     },
     {
       title: "title4 ",
       description: "Product",
-      image: "img/portfolio/dustypaws.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     },
     {
       title: "title5",
       description: "proof of concept",
-      image: "img/portfolio/cars.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     },
     {
       title: "title6",
       description: "proof of concept",
-      image: "img/portfolio/AIWeb.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     },
     {
-      title: "HandyChef",
+      title: "title7",
       description: "handyChef",
-      image: "img/handychef.svg",
+      image: "img/projects/handychef.svg",
       link: "https://www.handychef.ca/",
     },
     {
-      title: "Pomodee",
+      title: "title8",
       description: "Pomodee",
-      image: "img/pomodee.svg",
+      image: "img/projects/handychef.svg",
       link: "https://pomodee.com",
     },
     {
       title: "title9",
       description: "Mobile App",
-      image: 'img/portfolio/splink.svg',
+      image: "img/projects/handychef.svg",
       link: "https://www.splink.ca/",
     },
     {
       title: "title10 ",
       description: "Product",
-      image: "img/portfolio/dustypaws.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     },
     {
       title: "title11",
       description: "proof of concept",
-      image: "img/portfolio/cars.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     },
     {
       title: "title12",
       description: "proof of concept",
-      image: "img/portfolio/AIWeb.svg",
+      image: "img/projects/handychef.svg",
       link: "https://dustypaws.co/",
     }
   ]
@@ -83,11 +83,12 @@ const Projects = () => {
 <div className="slider m-auto">
   <div className="slide-track m-5">
         {projects.map(project => (
-         <div className="slide">
-            <a href={project.link}><img src={project.image} alt={project.title} className="imgBoxShadow" />
+         <div className="slide" key={project.title}>
+            console.log(project.image)
+            <a href={project.link}><img src={project.image} alt={project.title} className="imgBoxShadow" target="blank" />
+          
             </a>
           </div>
-        
     ))}
 </div>
       </div>

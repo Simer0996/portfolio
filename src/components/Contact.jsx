@@ -3,12 +3,8 @@ import React, { useState, useEffect,useRef } from "react"
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  
   const form = useRef();
-
-
   const [FontColor, setFontColor] = useState("")
-
 
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
