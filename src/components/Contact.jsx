@@ -27,7 +27,7 @@ const Contact = () => {
 
   }
   return (
-    <div className="w-[65%] m-auto block" id="contact">
+    <div className="w-[75%] m-auto block" id="contact">
       <div style={{ display: "flex", justifyContent: "space-between" }} >
 
         <form ref={form} onSubmit={(e) => handleSubmit(e)} className="flex flex-col w-[100%] lg:w-[60%] lg:none">
@@ -72,7 +72,7 @@ const Contact = () => {
             Submit
           </button>
         </form>
-        <img src="/contact/bulb.svg" alt="bulb" className="hidden lg:block lg:w-[300px]" />
+        <img src="/contact/bulb.png" alt="bulb" className="hidden lg:block lg:w-[400px] " />
       </div>
     </div>
   )
