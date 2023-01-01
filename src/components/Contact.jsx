@@ -72,7 +72,7 @@ const Contact = () => {
             Submit
           </button>
         </form>
-        <img src="/contact/bulb.svg" alt="bulb" style={{ width: "300px" }} />
+        <img src="/contact/bulb.svg" alt="bulb" className="hidden lg:block lg:w-[300px]" />
       </div>
     </div>
   )
