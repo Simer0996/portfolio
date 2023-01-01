@@ -72,7 +72,7 @@ const Contact = () => {
             Submit
           </button>
         </form>
-        <p className="text-white w-[30%] hidden lg:block mt-[80px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit reprehenderit rerum mollitia, corrupti illo ullam sequi ipsam saepe quibusdam quaerat ea aliquid distinctio neque tenetur similique optio tempora accusamus illum!</p>
+        <img src="/contact/bulb.svg" alt="bulb" style={{ width: "300px" }} />
       </div>
     </div>
   )
