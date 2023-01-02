@@ -16,7 +16,7 @@ function App() {
       <ToastContainer />
       <HeaderNav />
       <Home />
-      <div className="mt-[-250px] lg:mt-[-100px] mb-[150px] lg:mb-[100px]">
+      <div className="mt-[-250px] lg:mt-[-180px] mb-[150px] lg:mb-[100px]">
         <Projects />
       </div>
       <div style={{ marginTop: "-200px", marginBottom: "180px" }}>
