@@ -177,6 +177,7 @@ label:focus-within {
   ;
 }
 
+.error-styling,
 .heading-styling {
   text-shadow: 0 0 10px #ff9760,
     0 0 20px #ff9760,
@@ -186,7 +187,7 @@ label:focus-within {
     0 0 320px #ff9760;
 }
 
-hoverlink:hover {
+.error-styling hoverlink:hover {
   text-shadow:
     0 0 10px #ff9760,
     0 0 20px #ff9760,
