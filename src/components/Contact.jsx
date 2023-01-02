@@ -14,7 +14,7 @@ const schema = yup.object().shape({
 
 });
 
-const Contact = () => {
+const Contact = ({ notify }) => {
   const form = useRef();
   const [FontColor, setFontColor] = useState("")
   const { register, formState: { errors }, handleSubmit } = useForm({
@@ -32,17 +32,15 @@ const Contact = () => {
   }, [])
 
   const submitForm = () => {
-    if (errors) {
-      console.log(errors)
-    } else {
-      emailjs.sendForm('service_15jye7t', 'template_zurs2gs', form.current, 'E68Hjl1hVkx1g0Oc-')
-        .then((result) => {
-          console.log(result.text);
-        }, (error) => {
-          console.log(error.text);
-        });
-    }
+    emailjs.sendForm('service_15jye7t', 'template_zurs2gs', form.current, 'E68Hjl1hVkx1g0Oc-')
+      .then((result) => {
+        console.log(result.text)
+        notify()
+      }, (error) => {
+        console.log(error.text);
+      });
   }
+
   return (
     <div className="w-[75%] m-auto block" id="contact">
       <div style={{ display: "flex", justifyContent: "space-between" }} >

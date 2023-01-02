@@ -1,3 +1,5 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Home from "./components/Home"
 import HeaderNav from "./components/HeaderNav"
 import Contact from "./components/Contact"
@@ -7,8 +9,11 @@ import Skills from "./components/Skills"
 import Footer from "./components/Footer"
 
 function App() {
+
+  const notify = () => toast("Message Sent!");
   return (
     <div className="App">
+      <ToastContainer />
       <HeaderNav />
       <Home />
       <div className="mt-[-250px] lg:mt-[-100px] mb-[150px] lg:mb-[100px]">
@@ -19,7 +24,7 @@ function App() {
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
           <Skills />
         </div>
-        <Contact />
+        <Contact notify={notify} />
       </div>
       <Footer />
 
