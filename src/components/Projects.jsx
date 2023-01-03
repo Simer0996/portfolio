@@ -20,10 +20,10 @@ const Projects = () => {
     },
     {
       id: "3",
-      title: "Splink",
-      description: "Mobile App",
-      image: 'img/pomodee.jpg',
-      link: "https://www.splink.ca/",
+      title: "FlagApp",
+      description: "FlagApp",
+      image: 'img/flag.png',
+      link: "https://delightful-llama-4e61be.netlify.app/",
     },
     {
       id: "4",
