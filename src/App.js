@@ -5,92 +5,103 @@ import ProjectDetails from './pages/ProjectDetails'
 
 const App = () => {
 
+
   const projects = [
     {
       id: "1",
       title: "Pomodee",
-      description: "Pomodee",
+      description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
       image: "img/pomodee.jpg",
       link: "https://pomodee.com",
+      github: "https://github.com/team1-pomodee/pomodo-client"
     },
     {
       id: "2",
       title: "HandyChef",
-      description: "HandyChef",
+      description: "HandyChef is a cross-platform mobile application which connects independent chefs with clients to a private restaurant experience to client's homes at an affordable rate. Both chefs and clients are able to have their tailored dining experience booked,managed, and reviewed in a single application with a simple and secure payment procedure.",
       image: "img/handychef.jpg",
       link: "https://www.handychef.ca/",
-
+      github: "https://github.com/Dwayne01/handy-chef",
     },
     {
       id: "3",
       title: "FlagApp",
-      description: "FlagApp",
+      description: "This is an simple flag app who allows users an extensive knowledge of any specific countries, Their Flag, and many more....",
       image: 'img/flag.png',
       link: "https://delightful-llama-4e61be.netlify.app/",
+      github: "https://github.com/Simer0996/flagapp.git"
     },
     {
       id: "4",
       title: "GraphQlAuth",
-      description: "Auth",
+      description: "This project is about the demonstration of the Authentication flow in any Application with the usage of technologies such as React, Graphql, NoSQL(MongoDB), and JWT Token which is stored in the local storage of the browser.  ",
       image: "img/GraphqlAuth.png",
       link: "https://63b48aa3b7df063911c9b53a--tiny-chaja-6ed1ca.netlify.app/register",
+      github: "https://github.com/Simer0996/authentication"
     },
     {
       id: "5",
       title: "People and Cars",
-      description: "proof of concept",
-      image: "img/pomodee.jpg",
-      link: "https://dustypaws.co/",
+      description: "This app is based on the CRUD Technique to demonstrate the working of Graphql at both FrontEnd and BackEnd.",
+      image: "img/people.png",
+      link: "",
+      github: "https://github.com/Simer0996/GraphQl"
     },
     {
       id: "6",
-      title: "AI web app",
-      description: "proof of concept",
-      image: "img/handychef.jpg",
-      link: "https://dustypaws.co/",
-    }, {
+      title: "An simple Blog App",
+      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
+      image: "img/blog.png",
+      link: "",
+      github: "https://github.com/Simer0996/Blog-App"
+    },
+    {
       id: "7",
-      title: "Product View",
-      description: "proof of concept",
+      title: "Pomodee",
+      description: "Pomodee",
       image: "img/pomodee.jpg",
-      link: "https://ecommerce-olive.vercel.app/",
+      link: "https://pomodee.com",
+      github: "https://github.com/team1-pomodee/pomodo-client",
     },
     {
       id: "8",
-      title: "Rest Countries API",
-      description: "proof of concept",
+      title: "HandyChef",
+      description: "HandyChef",
       image: "img/handychef.jpg",
-
-      link: "https://my-tailwind-project.vercel.app/",
-
+      link: "https://www.handychef.ca/",
+      github: "https://github.com/Dwayne01/handy-chef",
     },
     {
       id: "9",
-      title: "Splink",
-      description: "Mobile App",
-      image: 'img/pomodee.jpg',
-      link: "https://www.splink.ca/",
+      title: "FlagApp",
+      description: "FlagApp",
+      image: 'img/flag.png',
+      link: "https://delightful-llama-4e61be.netlify.app/",
+      github: "https://github.com/Simer0996/flagapp.git"
     },
     {
       id: "10",
-      title: "Dustypaws ",
-      description: "Product",
-      image: "img/handychef.jpg",
-      link: "https://dustypaws.co/",
+      title: "GraphQlAuth",
+      description: "Auth",
+      image: "img/GraphqlAuth.png",
+      link: "https://63b48aa3b7df063911c9b53a--tiny-chaja-6ed1ca.netlify.app/register",
+      github: "https://github.com/Simer0996/authentication"
     },
     {
       id: "11",
       title: "People and Cars",
       description: "proof of concept",
-      image: "img/pomodee.jpg",
-      link: "https://dustypaws.co/",
+      image: "img/people.png",
+      link: "",
+      github: "https://github.com/Simer0996/GraphQl"
     },
     {
       id: "12",
-      title: "AI web app",
-      description: "proof of concept",
-      image: "img/handychef.jpg",
-      link: "https://dustypaws.co/",
+      title: "An simple Blog App",
+      description: "",
+      image: "img/blog.png",
+      link: "",
+      github: "https://github.com/Simer0996/Blog-App"
     }
   ]
 
