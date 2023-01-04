@@ -41,7 +41,7 @@ const App = () => {
     },
     {
       id: "5",
-      title: "People and Cars",
+      title: "People/Cars",
       description: "This app is based on the CRUD Technique to demonstrate the working of Graphql at both FrontEnd and BackEnd.",
       image: "img/people.png",
       link: "",
@@ -49,7 +49,7 @@ const App = () => {
     },
     {
       id: "6",
-      title: "An simple Blog App",
+      title: "An Blog App",
       description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
       image: "img/blog.png",
       link: "",
@@ -89,7 +89,7 @@ const App = () => {
     },
     {
       id: "11",
-      title: "People and Cars",
+      title: "People/Cars",
       description: "This app is based on the CRUD Technique to demonstrate the working of Graphql at both FrontEnd and BackEnd.",
       image: "img/people.png",
       link: "",
@@ -97,7 +97,7 @@ const App = () => {
     },
     {
       id: "12",
-      title: "An simple Blog App",
+      title: "An Blog App",
       description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
       image: "img/blog.png",
       link: "",
