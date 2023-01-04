@@ -17,8 +17,8 @@ const ProjectDetails = ({ projects }) => {
                             <img src={`/${project.image}`} alt={project.id} className="w-[600px] h-[400px] object-cover block m-auto" />
                             <p className="text-white lg:w-[50%] block m-auto pt-[20px]">{project.description}</p>
                             <div className="flex justify-center align-middle pt-[10px]">
-                                <a href={project.github}><button className="bg-white p-2 buttonStyling" target="_blank" rel="noopener noreferrer">View Source</button></a>
-                                <a href={project.link}><button className="bg-white p-2 ml-[20px] buttonStyling" target="_blank" rel="noopener noreferrer"> Live Site</button></a>
+                                <a href={project.github} target="_blank" rel="noopener noreferrer"><button className="bg-white p-2 buttonStyling" >View Source</button></a>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer"><button className="bg-white p-2 ml-[20px] buttonStyling" > Live Site</button></a>
                             </div>
                         </div> : <></>}
                 </div>
