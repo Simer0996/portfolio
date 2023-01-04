@@ -58,15 +58,15 @@ const App = () => {
     {
       id: "7",
       title: "Pomodee",
-      description: "Pomodee",
+      description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
       image: "img/pomodee.jpg",
       link: "https://pomodee.com",
-      github: "https://github.com/team1-pomodee/pomodo-client",
+      github: "https://github.com/team1-pomodee/pomodo-client"
     },
     {
       id: "8",
       title: "HandyChef",
-      description: "HandyChef",
+      description: "HandyChef is a cross-platform mobile application which connects independent chefs with clients to a private restaurant experience to client's homes at an affordable rate. Both chefs and clients are able to have their tailored dining experience booked,managed, and reviewed in a single application with a simple and secure payment procedure.",
       image: "img/handychef.jpg",
       link: "https://www.handychef.ca/",
       github: "https://github.com/Dwayne01/handy-chef",
@@ -74,7 +74,7 @@ const App = () => {
     {
       id: "9",
       title: "FlagApp",
-      description: "FlagApp",
+      description: "This is an simple flag app who allows users an extensive knowledge of any specific countries, Their Flag, and many more....",
       image: 'img/flag.png',
       link: "https://delightful-llama-4e61be.netlify.app/",
       github: "https://github.com/Simer0996/flagapp.git"
@@ -82,7 +82,7 @@ const App = () => {
     {
       id: "10",
       title: "GraphQlAuth",
-      description: "Auth",
+      description: "This project is about the demonstration of the Authentication flow in any Application with the usage of technologies such as React, Graphql, NoSQL(MongoDB), and JWT Token which is stored in the local storage of the browser.  ",
       image: "img/GraphqlAuth.png",
       link: "https://63b48aa3b7df063911c9b53a--tiny-chaja-6ed1ca.netlify.app/register",
       github: "https://github.com/Simer0996/authentication"
@@ -90,7 +90,7 @@ const App = () => {
     {
       id: "11",
       title: "People and Cars",
-      description: "proof of concept",
+      description: "This app is based on the CRUD Technique to demonstrate the working of Graphql at both FrontEnd and BackEnd.",
       image: "img/people.png",
       link: "",
       github: "https://github.com/Simer0996/GraphQl"
@@ -98,12 +98,11 @@ const App = () => {
     {
       id: "12",
       title: "An simple Blog App",
-      description: "",
+      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
       image: "img/blog.png",
       link: "",
       github: "https://github.com/Simer0996/Blog-App"
-    }
-  ]
+    },]
 
   return (
     <BrowserRouter>
