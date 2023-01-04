@@ -27,10 +27,10 @@ const Projects = () => {
     },
     {
       id: "4",
-      title: "Dustypaws ",
-      description: "Product",
-      image: "img/handychef.jpg",
-      link: "https://dustypaws.co/",
+      title: "GraphQlAuth",
+      description: "Auth",
+      image: "img/GraphqlAuth.png",
+      link: "https://63b48aa3b7df063911c9b53a--tiny-chaja-6ed1ca.netlify.app/register",
     },
     {
       id: "5",
