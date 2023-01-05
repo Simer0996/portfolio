@@ -82,7 +82,7 @@ const App = () => {
     {
       id: "10",
       title: "GraphQlAuth",
-      description: "This project is about the demonstration of the Authentication flow in any Application with the usage of technologies such as React, Graphql, NoSQL(MongoDB), and JWT Token which is stored in the local storage of the browser.  ",
+      description: "This is an simple post application with a purpose of demonstrating the authentication flow and various crucial security features In this an simple body of post can be added by a user and only the user who added the post have authorization to delete it.The backend server side of the app is managed using the graphql and the Api has been hosted via AWS Services.JWT Authentication has been implemented with the expiry time of 1hr  ",
       image: "img/GraphqlAuth.png",
       link: "https://63b48aa3b7df063911c9b53a--tiny-chaja-6ed1ca.netlify.app/register",
       github: "https://github.com/Simer0996/authentication"
