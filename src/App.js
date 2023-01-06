@@ -7,14 +7,14 @@ const App = () => {
 
 
   const projects = [
-    // {
-    //   id: "1",
-    //   title: "Pomodee",
-    //   description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
-    //   image: "img/pomodee.jpg",
-    //   link: "https://pomodee.com",
-    //   github: "https://github.com/team1-pomodee/pomodo-client"
-    // },
+    {
+      id: "1",
+      title: "Pomodee",
+      description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
+      image: "img/pomodee.jpg",
+      link: "",
+      github: "https://github.com/team1-pomodee/pomodo-client"
+    },
     {
       id: "2",
       title: "HandyChef",
@@ -55,14 +55,14 @@ const App = () => {
       link: "",
       github: "https://github.com/Simer0996/Blog-App"
     },
-    // {
-    //   id: "7",
-    //   title: "Pomodee",
-    //   description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
-    //   image: "img/pomodee.jpg",
-    //   link: "https://pomodee.com",
-    //   github: "https://github.com/team1-pomodee/pomodo-client"
-    // },
+    {
+      id: "7",
+      title: "Pomodee",
+      description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
+      image: "img/pomodee.jpg",
+      link: "",
+      github: "https://github.com/team1-pomodee/pomodo-client"
+    },
     {
       id: "8",
       title: "HandyChef",
