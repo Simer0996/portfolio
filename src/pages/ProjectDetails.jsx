@@ -18,7 +18,7 @@ const ProjectDetails = ({ projects }) => {
                             <p className="text-white lg:w-[50%] block m-auto pt-[20px]">{project.description}</p>
                             <div className="flex justify-center align-middle pt-[10px]">
                                 <a href={project.github} target="_blank" rel="noopener noreferrer"><button className="bg-white p-2 buttonStyling" >View Source</button></a>
-                                {project.link === "" ? <button className=" ml-[20px] p-1 buttonStylingInProgress" > In Progress</button> : <a href={project.link} target="_blank" rel="noopener noreferrer"><button className="bg-white p-2 ml-[20px] buttonStyling" > Live Site</button></a>}
+                                {project.link === "" ? <button className=" ml-[20px] p-1 buttonStylingInProgress" > Live site in Progress</button> : <a href={project.link} target="_blank" rel="noopener noreferrer"><button className="bg-white p-2 ml-[20px] buttonStyling" > Live Site</button></a>}
                             </div>
                         </div> : <></>}
                 </div>
