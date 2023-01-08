@@ -25,7 +25,7 @@ const About = () => {
       }} />
       <div style={{ color: `${color}` }} className="w-[70%] text-center lg:text-left"><p>My name is Simer and I'm a Full Stack developer with 2+ years of experience designing, developing, and implementing applications and solutions using various range of technologies and programming languages. Seeking a leverage broad development experience and hands-on technical expertise in a challenging role as Full-stack Developer. </p><br />
         <p>I am passionate about trying new technologies based on Machine Learning, Automation and Cloud. My hobby is to try new Distros in the Linux world and my favorite kind is Arch based Distro.  </p>
-        <a href="/resume/simerResume.pdf" download >
+        <a href="/resume/CV.pdf" download >
           <button style={{
             backgroundColor: "black",
             color: `${color}`,
