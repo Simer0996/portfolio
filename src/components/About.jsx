@@ -23,7 +23,7 @@ const About = () => {
         borderColor: `${color}`,
         boxShadow: `${boxShadow}`
       }} />
-      <div style={{ color: `${color}` }} className="w-[70%] text-center lg:text-left"><p>My name is Simer and I'm a Full Stack developer with 2+ years of experience designing, developing, and implementing applications and solutions using various range of technologies and programming languages. Seeking a leverage broad development experience and hands-on technical expertise in a challenging role as Full-stack Developer. </p><br />
+      <div style={{ color: `${color}` }} className="w-[70%] text-center lg:text-left"><p>Hey Everyone, My name is Simer and I'm a Full Stack developer I have 2-3 years of experience designing, developing, and implementing applications and solutions using various range of technologies and programming languages. As I did the bachelors of technnology in Electrical Engineering, there are some skills such as Data visualisation, OOPS Concepts, MySQL which I mastered over the period of time to implement the stable applications. </p><br />
         <p>I am passionate about trying new technologies based on Machine Learning, Automation and Cloud. My hobby is to try new Distros in the Linux world and my favorite kind is Arch based Distro.  </p>
         <a href="/resume/simerResume.pdf" download >
           <button style={{
