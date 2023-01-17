@@ -17,7 +17,7 @@ const HeaderNav = () => {
       <div className="flex fixed left-0 top-0 w-full z-10 gap-3 m-3">
         <a href="https://github.com/Simer0996" className="text-2xl"><FaGithub style={getStyle} /></a>
         <a href="https://www.linkedin.com/in/simerjit-singh/" className="text-2xl"><FaLinkedin style={getStyle} /></a>
-        <a href="#contact"><button className="buttonStyling1">Let's Contact</button></a>
+        {/* <a href="#contact"><button className="buttonStyling1">Let's Contact</button></a> */}
 
       </div></div>
   )
