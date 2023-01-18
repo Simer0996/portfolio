@@ -19,7 +19,7 @@ const About = () => {
   return (
 
     <div className="flex items-center gap-[50px] justify-center flex-wrap mb-[100px]">
-      <img src={myImage} alt="itsMe" className="w-[180px] border-solid border-[5px] rounded-full " style={{
+      <img src={myImage} alt="itsMe" className="w-[200px] border-solid border-[5px] rounded-full " style={{
         borderColor: `${color}`,
         boxShadow: `${boxShadow}`
       }} />
