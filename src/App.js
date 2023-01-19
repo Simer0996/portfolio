@@ -60,7 +60,7 @@ const App = () => {
       title: "Pomodee",
       description: "Pomodee is the type of pomodoro timer which is fun and network driven. This platform allow users to connect with each other and share their accomplishments with the world. Additionally, the app also allow users to collaborate in real time with their friends and colleagues. ",
       image: "img/pomodee.jpg",
-      link: "",
+      link: "https://63c9adbfe71a072600c4d8af--charming-chebakia-f3ec0c.netlify.app/home",
       github: "https://github.com/team1-pomodee/pomodo-client"
     },
     {
