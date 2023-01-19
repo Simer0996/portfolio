@@ -52,7 +52,7 @@ const App = () => {
       title: "An Blog App",
       description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
       image: "img/blog.png",
-      link: "",
+      link: "https://blog-app1.herokuapp.com/",
       github: "https://github.com/Simer0996/Blog-App"
     },
     {
@@ -100,7 +100,7 @@ const App = () => {
       title: "An Blog App",
       description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
       image: "img/blog.png",
-      link: "",
+      link: "https://blog-app1.herokuapp.com/",
       github: "https://github.com/Simer0996/Blog-App"
     },]
 
