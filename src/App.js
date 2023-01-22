@@ -65,7 +65,7 @@ const App = () => {
     {
       id: "6",
       title: "An Blog App",
-      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
+      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within the app.",
       frontTechnologies: "React, CSS3",
       backTechnologies: "Express JS, Node JS, MongoDB",
       HostingServices: "Heroku(Deploy the App)",
@@ -131,7 +131,7 @@ const App = () => {
     {
       id: "12",
       title: "An Blog App",
-      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within thi app.",
+      description: "This app is basically based on CRUD technique. -It is the simple personal blog app in which user can create, read ,update and delete the blog created within the app.",
       frontTechnologies: "React, CSS3",
       backTechnologies: "Express JS, Node JS, MongoDB",
       HostingServices: "Heroku(Deploy the App)",
