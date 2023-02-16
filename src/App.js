@@ -4,9 +4,10 @@ import Home from "./pages/Home"
 import ProjectDetails from './pages/ProjectDetails'
 import ReactGA from "react-ga"
 
+
+const TRACKINGID = ""
+
 const App = () => {
-
-
   const projects = [
     {
       id: "1",
