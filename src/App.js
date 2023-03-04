@@ -2,10 +2,10 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home"
 import ProjectDetails from './pages/ProjectDetails'
-import ReactGA from "react-ga"
+// import ReactGA from "react-ga"
 
 
-const TRACKINGID = ""
+// const TRACKINGID = ""
 
 const App = () => {
   const projects = [
